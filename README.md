@@ -5,10 +5,10 @@
 
 <!-- ═══════════════════════ TYPING ANIMATION ═══════════════════════ -->
 <div align="center">
-  <a href="https://github.com/Lokii1211">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=800&color=00F7FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=60&lines=🤖+I+build+AI+systems+that+run+in+production;🚀+4+Live+AI+Products+•+310%2B+Production+Commits;🧠+LangChain+•+RAG+•+Multi-Agent+•+LLM+Orchestration;🎙️+Voice+AI+in+5+Indian+Languages+•+95%25%2B+Accuracy;⚡+99.5%25+Uptime+•+Real+Users+•+24%2F7" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2600&pause=700&color=00F7FF&center=true&vCenter=true&repeat=true&width=800&height=70&lines=I+build+AI+systems+that+run+in+production+%F0%9F%9A%80;4+Live+AI+Products+%E2%80%A2+310%2B+Production+Commits;LangChain+%E2%80%A2+RAG+%E2%80%A2+Multi-Agent+%E2%80%A2+LLM+Orchestration;Voice+AI+in+5+Indian+Languages+%E2%80%A2+95%25%2B+Accuracy;99.5%25+Uptime+%E2%80%A2+Real+Users+%E2%80%A2+24%2F7" alt="I build AI systems that run in production" />
 </div>
+
+<br/>
 
 <!-- ═══════════════════════ SOCIAL BADGES ═══════════════════════ -->
 <div align="center">
@@ -24,8 +24,6 @@
 <br/>
 
 <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
-<img align="right" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="coding gif"/>
-
 ## 🧬 About Me
 
 ```python
@@ -49,8 +47,6 @@ class LokeshkumarD(AIEngineer):
 - 🚀 **4 production AI products** serving real users **24/7** with **99.5% uptime**
 - 📦 **310+ production commits** across live systems
 - 🌏 Open to **Remote / Relocation** — AI Engineering roles & freelance projects
-
-<br clear="right"/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,50:00F7FF,100:0f0c29&height=3" width="100%"/>
 
