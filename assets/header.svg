@@ -1,0 +1,97 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f0c29"/>
+      <stop offset="0.5" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF">
+        <animate attributeName="stop-color" values="#00F7FF;#7B68EE;#00F7FF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#FFFFFF">
+        <animate attributeName="stop-color" values="#FFFFFF;#00F7FF;#FFFFFF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7B68EE">
+        <animate attributeName="stop-color" values="#7B68EE;#00F7FF;#7B68EE" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#7B68EE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00F7FF" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .name {
+        font-family: 'Times New Roman', Times, Georgia, serif;
+        font-size: 74px;
+        font-weight: bold;
+        letter-spacing: 10px;
+        fill: url(#nameGrad);
+        opacity: 0;
+        animation: fadeUp 1.4s ease-out forwards;
+      }
+      .role {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 21px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        fill: #9BE8FF;
+        opacity: 0;
+        animation: fadeUp 1.4s ease-out 0.6s forwards;
+      }
+      .rule {
+        stroke: #00F7FF;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-dasharray: 460;
+        stroke-dashoffset: 460;
+        animation: draw 1.6s ease-out 0.4s forwards;
+      }
+      .p { animation: pulse 4s ease-in-out infinite; }
+      .p2 { animation: pulse 5s ease-in-out 1.2s infinite; }
+      .p3 { animation: pulse 6s ease-in-out 2.4s infinite; }
+      @keyframes fadeUp { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes pulse { 0%,100% { opacity: 0.15; } 50% { opacity: 0.8; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <!-- floating particles -->
+  <circle class="p"  cx="90"   cy="70"  r="3"   fill="#00F7FF"/>
+  <circle class="p2" cx="210"  cy="180" r="2"   fill="#7B68EE"/>
+  <circle class="p3" cx="330"  cy="45"  r="2.5" fill="#00F7FF"/>
+  <circle class="p2" cx="880"  cy="55"  r="3"   fill="#7B68EE"/>
+  <circle class="p"  cx="1000" cy="170" r="2"   fill="#00F7FF"/>
+  <circle class="p3" cx="1110" cy="80"  r="2.5" fill="#00F7FF"/>
+  <circle class="p"  cx="1160" cy="200" r="2"   fill="#7B68EE"/>
+  <circle class="p3" cx="60"   cy="220" r="2"   fill="#7B68EE"/>
+
+  <!-- name : Times New Roman serif -->
+  <text class="name" x="600" y="128" text-anchor="middle" filter="url(#glow)">LOKESHKUMAR D</text>
+
+  <!-- animated divider -->
+  <line class="rule" x1="370" y1="158" x2="830" y2="158"/>
+
+  <!-- roles : monospace -->
+  <text class="role" x="600" y="198" text-anchor="middle">AI ENGINEER &#8226; AGENTIC AI SYSTEMS &#8226; FULL-STACK DEVELOPER</text>
+
+  <!-- drifting waves -->
+  <g>
+    <path fill="url(#waveGrad)" d="M0,240 C150,215 300,265 450,240 C600,215 750,265 900,240 C1050,215 1200,265 1350,240 C1500,215 1650,265 1800,240 C1950,215 2100,265 2250,240 L2400,240 L2400,280 L0,280 Z">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -1200,0" dur="14s" repeatCount="indefinite"/>
+    </path>
+    <path fill="url(#waveGrad)" opacity="0.6" d="M0,252 C200,232 400,272 600,252 C800,232 1000,272 1200,252 C1400,232 1600,272 1800,252 C2000,232 2200,272 2400,252 L2400,280 L0,280 Z">
+      <animateTransform attributeName="transform" type="translate" values="-1200,0; 0,0" dur="18s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

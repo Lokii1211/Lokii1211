@@ -1,0 +1,46 @@
+<svg width="1200" height="160" viewBox="0 0 1200 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgf" x1="0" y1="0" x2="1200" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24243e"/>
+      <stop offset="0.5" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#0f0c29"/>
+    </linearGradient>
+    <linearGradient id="wavef" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#7B68EE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00F7FF" stop-opacity="0.25"/>
+    </linearGradient>
+    <style>
+      .thanks {
+        font-family: 'Times New Roman', Times, Georgia, serif;
+        font-size: 34px;
+        font-weight: bold;
+        font-style: italic;
+        letter-spacing: 4px;
+        fill: #00F7FF;
+      }
+      .sub {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        letter-spacing: 4px;
+        fill: #9BE8FF;
+        opacity: 0.85;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="160" fill="url(#bgf)"/>
+
+  <!-- drifting waves (top edge) -->
+  <g>
+    <path fill="url(#wavef)" d="M0,40 C150,15 300,65 450,40 C600,15 750,65 900,40 C1050,15 1200,65 1350,40 C1500,15 1650,65 1800,40 C1950,15 2100,65 2250,40 L2400,40 L2400,0 L0,0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -1200,0" dur="14s" repeatCount="indefinite"/>
+    </path>
+    <path fill="url(#wavef)" opacity="0.6" d="M0,28 C200,8 400,48 600,28 C800,8 1000,48 1200,28 C1400,8 1600,48 1800,28 C2000,8 2200,48 2400,28 L2400,0 L0,0 Z">
+      <animateTransform attributeName="transform" type="translate" values="-1200,0; 0,0" dur="18s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <text class="thanks" x="600" y="102" text-anchor="middle">Thanks for visiting !</text>
+  <text class="sub" x="600" y="134" text-anchor="middle">BUILD &#8226; SHIP &#8226; SCALE &#8226; REPEAT</text>
+</svg>

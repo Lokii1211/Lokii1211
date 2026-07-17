@@ -1,6 +1,6 @@
-<!-- ═══════════════════════ ANIMATED WAVE HEADER ═══════════════════════ -->
+<!-- ═══════════════════════ ANIMATED HEADER ═══════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=LOKESHKUMAR%20D&fontSize=64&fontColor=00F7FF&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%E2%80%A2%20Agentic%20AI%20Systems%20%E2%80%A2%20Full-Stack%20Developer&descAlignY=55&descSize=18" width="100%"/>
+  <img src="./assets/header.svg" width="100%" alt="Lokeshkumar D — AI Engineer, Agentic AI Systems, Full-Stack Developer"/>
 </div>
 
 <!-- ═══════════════════════ TYPING ANIMATION ═══════════════════════ -->
@@ -222,5 +222,5 @@ class LokeshkumarD(AIEngineer):
 
 <!-- ═══════════════════════ ANIMATED FOOTER ═══════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=140&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=28&fontColor=00F7FF&animation=fadeIn&fontAlignY=75" width="100%"/>
+  <img src="./assets/footer.svg" width="100%" alt="Thanks for visiting!"/>
 </div>
